@@ -1,0 +1,140 @@
+@import '_ipad-size.scss';
+@import '_desktop-size.scss';
+@import '_dropDownMenu.scss';
+@import '_colors.scss';
+
+*,
+::before,
+*::after,
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: $bgColor;
+  display: flex;
+  justify-content: center;
+}
+#Wrapper {
+  background-color: $bgColorAccent;
+  width: 90%;
+  padding: 1rem;
+  margin-top: 3rem;
+  border-radius: 1rem;
+}
+#headerText {
+  a:link {
+    text-decoration: none;
+  }
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  width: 92%;
+  margin: auto;
+  padding-bottom: 1rem;
+  h1 {
+    color: $boldTextColor;
+    font-size: 4rem;
+  }
+  #dateWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p,
+    h4 {
+      display: flex;
+      justify-content: flex-end;
+      color: $boldTextColor;
+    }
+  }
+}
+#toDoWrapper {
+  #inputformWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  form {
+    #formSubmitInput {
+      border: none;
+      height: 2.4rem;
+      width: 80%;
+      padding-left: 5px;
+    }
+    #formSubmitBtn {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      font-size: 1.8rem;
+    }
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    li {
+      background-color: $toDoItemsBgColor;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 92%;
+      margin: 0.3rem;
+      padding-left: 5px;
+      form {
+        display: flex;
+        justify-content: space-between;
+        width: 107%;
+        input {
+          border: none;
+          width: 100%;
+          margin-left: -5px;
+          padding-left: 5px;
+        }
+      }
+      .editBtnWrapper {
+        display: flex;
+        flex-direction: row;
+        .editBtn {
+          background-color: transparent;
+          background-color: #ffd369;
+        }
+        .dltBtn {
+          background-color: red;
+          color: white;
+        }
+        .editBtn,
+        .dltBtn,
+        #editSubmitBtn,
+        #editRegreatBtn {
+          border: none;
+          i {
+            padding: 0.7rem;
+          }
+        }
+        #editSubmitBtn {
+          background-color: greenyellow;
+        }
+        #editRegreatBtn {
+          background-color: red;
+        }
+        #editSubmitBtn,
+        #editRegreatBtn {
+          i {
+            padding: 0.7rem;
+          }
+        }
+      }
+    }
+    #editPageLi {
+      background-color: transparent;
+    }
+  }
+}

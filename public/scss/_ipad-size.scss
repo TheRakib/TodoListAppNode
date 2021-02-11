@@ -1,0 +1,49 @@
+@import '_colors.scss';
+
+@media (min-width: 768px) {
+  body {
+    #Wrapper {
+      width: 60%;
+    }
+    #headerText {
+      padding: 1rem;
+      h1 {
+        color: $boldTextColor;
+        font-size: 5rem;
+      }
+    }
+
+    #toDoWrapper {
+      ul {
+        li {
+          .editBtnWrapper {
+            .editBtn,
+            .dltBtn,
+            #editSubmitBtn,
+            #editSubmitBtn {
+              border: none;
+              i {
+                padding: 0.7rem;
+                font-size: 2rem;
+              }
+            }
+          }
+        }
+      }
+      #editPageLi {
+        background-color: transparent;
+        #editRegreatBtn {
+          i {
+            font-size: xx-large;
+            padding: 0.71rem;
+          }
+        }
+      }
+      form {
+        #formSubmitInput {
+          width: 79%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,282 @@
+@media (min-width: 768px) {
+  body #Wrapper {
+    width: 60%;
+  }
+  body #headerText {
+    padding: 1rem;
+  }
+  body #headerText h1 {
+    color: green;
+    font-size: 5rem;
+  }
+  body #toDoWrapper ul li .editBtnWrapper .editBtn,
+  body #toDoWrapper ul li .editBtnWrapper .dltBtn,
+  body #toDoWrapper ul li .editBtnWrapper #editSubmitBtn,
+  body #toDoWrapper ul li .editBtnWrapper #editSubmitBtn {
+    border: none;
+  }
+  body #toDoWrapper ul li .editBtnWrapper .editBtn i,
+  body #toDoWrapper ul li .editBtnWrapper .dltBtn i,
+  body #toDoWrapper ul li .editBtnWrapper #editSubmitBtn i,
+  body #toDoWrapper ul li .editBtnWrapper #editSubmitBtn i {
+    padding: 0.7rem;
+    font-size: 2rem;
+  }
+  body #toDoWrapper #editPageLi {
+    background-color: transparent;
+  }
+  body #toDoWrapper #editPageLi #editRegreatBtn i {
+    font-size: xx-large;
+    padding: 0.71rem;
+  }
+  body #toDoWrapper form #formSubmitInput {
+    width: 79%;
+  }
+}
+
+@media (min-width: 992px) {
+  body #toDoWrapper form #formSubmitInput {
+    width: 82%;
+  }
+}
+
+.dropDownMenuOwnStyleWrapper {
+  width: 92%;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.dropDownMenuOwnStyleWrapper .dropdown button {
+  margin: 0;
+  padding: 2px;
+  background-color: transparent;
+  border: none;
+  color: green;
+}
+
+.dropDownMenuOwnStyleWrapper .dropdown button :focus {
+  border-color: none;
+}
+
+.dropDownMenuOwnStyleWrapper .dropdown button :active,
+.dropDownMenuOwnStyleWrapper .dropdown button :hover {
+  background-color: transparent;
+  color: green;
+}
+
+.dropDownMenuOwnStyleWrapper .dropdown .btn-secondary.dropdown-toggle {
+  background-color: transparent;
+  color: green;
+}
+
+.dropDownMenuOwnStyleWrapper .dropdown .btn-secondary.dropdown-toggle:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+*,
+::before,
+*::after,
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e8e8e8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Wrapper {
+  background-color: #cfdac8;
+  width: 90%;
+  padding: 1rem;
+  margin-top: 3rem;
+  border-radius: 1rem;
+}
+
+#headerText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+  width: 92%;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+#headerText a:link {
+  text-decoration: none;
+}
+
+#headerText h1 {
+  color: green;
+  font-size: 4rem;
+}
+
+#headerText #dateWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#headerText #dateWrapper p,
+#headerText #dateWrapper h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: green;
+}
+
+#toDoWrapper #inputformWrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#toDoWrapper form #formSubmitInput {
+  border: none;
+  height: 2.4rem;
+  width: 80%;
+  padding-left: 5px;
+}
+
+#toDoWrapper form #formSubmitBtn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+
+#toDoWrapper ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#toDoWrapper ul li {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 92%;
+  margin: 0.3rem;
+  padding-left: 5px;
+}
+
+#toDoWrapper ul li form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 107%;
+}
+
+#toDoWrapper ul li form input {
+  border: none;
+  width: 100%;
+  margin-left: -5px;
+  padding-left: 5px;
+}
+
+#toDoWrapper ul li .editBtnWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#toDoWrapper ul li .editBtnWrapper .editBtn {
+  background-color: transparent;
+  background-color: #ffd369;
+}
+
+#toDoWrapper ul li .editBtnWrapper .dltBtn {
+  background-color: red;
+  color: white;
+}
+
+#toDoWrapper ul li .editBtnWrapper .editBtn,
+#toDoWrapper ul li .editBtnWrapper .dltBtn,
+#toDoWrapper ul li .editBtnWrapper #editSubmitBtn,
+#toDoWrapper ul li .editBtnWrapper #editRegreatBtn {
+  border: none;
+}
+
+#toDoWrapper ul li .editBtnWrapper .editBtn i,
+#toDoWrapper ul li .editBtnWrapper .dltBtn i,
+#toDoWrapper ul li .editBtnWrapper #editSubmitBtn i,
+#toDoWrapper ul li .editBtnWrapper #editRegreatBtn i {
+  padding: 0.7rem;
+}
+
+#toDoWrapper ul li .editBtnWrapper #editSubmitBtn {
+  background-color: greenyellow;
+}
+
+#toDoWrapper ul li .editBtnWrapper #editRegreatBtn {
+  background-color: red;
+}
+
+#toDoWrapper ul li .editBtnWrapper #editSubmitBtn i,
+#toDoWrapper ul li .editBtnWrapper #editRegreatBtn i {
+  padding: 0.7rem;
+}
+
+#toDoWrapper ul #editPageLi {
+  background-color: transparent;
+}
+/*# sourceMappingURL=style.css.map */

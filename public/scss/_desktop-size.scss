@@ -1,0 +1,12 @@
+@import '_colors.scss';
+@media (min-width: 992px) {
+  body {
+    #toDoWrapper {
+      form {
+        #formSubmitInput {
+          width: 82%;
+        }
+      }
+    }
+  }
+}

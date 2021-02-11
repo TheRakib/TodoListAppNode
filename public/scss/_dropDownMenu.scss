@@ -1,0 +1,32 @@
+@import '_colors.scss';
+.dropDownMenuOwnStyleWrapper {
+  width: 92%;
+  margin: auto;
+  margin-top: 0.5rem;
+
+  .dropdown {
+    button {
+      margin: 0;
+      padding: 2px;
+      background-color: transparent;
+      border: none;
+      color: $boldTextColor;
+      :focus {
+        border-color: none;
+      }
+      :active,
+      :hover {
+        background-color: transparent;
+        color: $boldTextColor;
+      }
+    }
+
+    .btn-secondary.dropdown-toggle {
+      background-color: transparent;
+      color: $boldTextColor;
+    }
+    .btn-secondary.dropdown-toggle:focus {
+      box-shadow: none;
+    }
+  }
+}
